@@ -267,6 +267,17 @@ aside p{
     margin-bottom: 50px;
 }
 
+.big-box{
+    grid-column: 1 / 3;
+    grid-row: 1 / 3
+}
+
+.big-box img{
+    height: 94%;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 @media (max-width: 600px) {
     h1{
@@ -341,5 +352,14 @@ aside p{
 
     .menu-content{
         margin-top: 20%;
+    }
+
+    .big-box{
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .big-box img{
+        height: 100%;
     }
 }
