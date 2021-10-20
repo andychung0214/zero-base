@@ -96,9 +96,7 @@ img{
 }
 
 #home{
-    background-image: url(../images/main-bg.jpg);
-    background-color: #fff;
-    background-blend-mode: hard-light;
+    background-image: linear-gradient(#c9ffbf, #ffafbd);
     min-height: 100vh;
 }
 
