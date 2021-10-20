@@ -105,3 +105,17 @@ img{
     text-transform: none;
 }
 
+
+
+/*News*/
+
+#news{
+    background-image: url(../images/main-news.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+#news .page-title{
+    text-align: center;
+}
+
