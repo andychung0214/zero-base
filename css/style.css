@@ -325,7 +325,7 @@ input[type="submit"]{
     line-height:1;
 }
 
-
+/*Location*/
 #location{
     padding: 4% 0;
 }
@@ -345,6 +345,26 @@ input[type="submit"]{
 
 .location-map{
     width: 74%;
+}
+
+/*SNS*/
+
+#sns{
+    background: #FaF7F0;
+    padding: 4% 0;
+}
+
+#sns .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sns .sub-title{
+    margin-bottom: 30px;
+}
+
+.sns-box{
+    width: 30%;
 }
 
 
